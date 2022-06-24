@@ -1,0 +1,54 @@
+{
+  "name": "@aparajita/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "My eslint rules for JavaScript + TypeScript + Vue",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript",
+    "vue"
+  ],
+  "author": "Aparajita Fishman",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint.fix": "eslint --fix .",
+    "release": "commit-and-tag-version",
+    "push": "git push --follow-tags origin main && pnpm publish"
+  },
+  "dependencies": {
+    "@aparajita/eslint-config-base": "link:../eslint-config-base"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.29.0",
+    "@typescript-eslint/parser": ">=5.29.0",
+    "eslint": ">=8",
+    "eslint-config-prettier": ">=8.5.0",
+    "eslint-config-standard": ">=17.0.0",
+    "eslint-plugin-import": ">=2.26.0",
+    "eslint-plugin-n": ">=15.2.3",
+    "eslint-plugin-prettier-vue": ">=4.1.0",
+    "eslint-plugin-promise": ">=6.0.0",
+    "eslint-plugin-vue": ">=9.1.1",
+    "prettier": ">=2.7.1",
+    "typescript": ">=4.7.4",
+    "vue-eslint-parser": ">=9.0.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "commit-and-tag-version": "^10.0.1",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-prettier-vue": "^4.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "vue-eslint-parser": "^9.0.3"
+  }
+}
