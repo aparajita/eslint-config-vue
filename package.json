@@ -2,15 +2,20 @@
   "name": "@aparajita/eslint-config-vue",
   "version": "1.0.0",
   "description": "My eslint rules for JavaScript + TypeScript + Vue",
+  "author": "Aparajita Fishman",
+  "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/",
+    "LICENSE"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
     "typescript",
     "vue"
   ],
-  "author": "Aparajita Fishman",
-  "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js,.ts --ignore-pattern 'test/' .",
     "lint.fix": "eslint --ext .js,.ts --ignore-pattern 'test/' --fix .",
