@@ -27,6 +27,9 @@
     "release": "pnpm check.fix && commit-and-tag-version",
     "push": "git push --follow-tags origin main"
   },
+  "dependencies": {
+    "@aparajita/eslint-config-base": "^1.1.1"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=5.30.0",
     "@typescript-eslint/parser": ">=5.30.0",
@@ -42,7 +45,6 @@
     "vue-eslint-parser": ">=9.0.3"
   },
   "devDependencies": {
-    "@aparajita/eslint-config-base": "^1.1.1",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "commit-and-tag-version": "^10.0.1",
