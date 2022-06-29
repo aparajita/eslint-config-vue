@@ -23,6 +23,7 @@
     "prettier.fix": "prettier --check --write .",
     "check": "pnpm lint && pnpm prettier && echo '✅ All good!'",
     "check.fix": "pnpm lint.fix && pnpm prettier.fix && echo '✅ All good!'",
+    "test": "echo '==> There SHOULD be errors:' && eslint --ext .js,.ts test",
     "release": "pnpm check.fix && commit-and-tag-version",
     "push": "git push --follow-tags origin main"
   },
