@@ -1,6 +1,6 @@
 {
   "name": "@aparajita/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My eslint rules for JavaScript + TypeScript + Vue",
   "author": "Aparajita Fishman",
   "license": "MIT",
