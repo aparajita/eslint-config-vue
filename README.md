@@ -44,7 +44,7 @@ const path = require('path')
 
 // Set this however you want: relative, absolute, calculated, whatever
 const rootTsconfigPath = path.resolve('/path/to/root/tsconfig.json')
- 
+
 module.exports = {
   extends: ['@aparajita/vue'],
   overrides: [
