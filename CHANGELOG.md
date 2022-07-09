@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.0.3](https://github.com/aparajita/eslint-config-vue/compare/v1.0.2...v1.0.3) (2022-07-09)
+
+
+### Bug Fixes
+
+* typescript rules weren't applied in .vue ([0ac3b5f](https://github.com/aparajita/eslint-config-vue/commit/0ac3b5fb3d8be4d7a0861866890ccbd07896a419))
+
+
+### Maintenance
+
+* update scripts and deps ([de9ffa5](https://github.com/aparajita/eslint-config-vue/commit/de9ffa59758f6e0a70164ec28b74221b767dbf60))
+
 ### [1.0.2](https://github.com/aparajita/eslint-config-vue/compare/v1.0.1...v1.0.2) (2022-06-29)
 
 
