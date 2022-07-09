@@ -17,18 +17,15 @@
     "vue"
   ],
   "scripts": {
-    "lint": "eslint --ext .js,.ts --ignore-pattern 'test/' .",
-    "lint.fix": "eslint --ext .js,.ts --ignore-pattern 'test/' --fix .",
+    "lint": "eslint --ignore-pattern 'test/' .",
+    "lint.fix": "eslint --ignore-pattern 'test/' --fix .",
     "prettier": "prettier --check .",
     "prettier.fix": "prettier --check --write .",
-    "check": "pnpm lint && pnpm prettier && echo '✅ All good!'",
-    "check.fix": "pnpm lint.fix && pnpm prettier.fix && echo '✅ All good!'",
-    "test": "echo '==> There SHOULD be errors:' && eslint --ext .js,.ts test",
-    "release": "pnpm check.fix && commit-and-tag-version",
-    "push": "git push --follow-tags origin main"
-  },
-  "dependencies": {
-    "@aparajita/eslint-config-base": "^1.1.1"
+    "check": "pnpm lint && pnpm prettier && echo '\u001b[32m✔︎\u001b[0mAll good!'",
+    "check.fix": "pnpm lint.fix && pnpm prettier.fix && echo '\u001b[32m✔︎\u001b[0mAll good!'",
+    "push": "git push --follow-tags origin main",
+    "release.check": "pnpm check.fix && commit-and-tag-version ${VERSION:+-r $VERSION} --dry-run",
+    "release": "commit-and-tag-version ${VERSION:+-r $VERSION} && pnpm push && pnpm publish"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=5.30.0",
@@ -45,19 +42,22 @@
     "vue-eslint-parser": ">=9.0.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.30.0",
-    "@typescript-eslint/parser": "^5.30.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
     "commit-and-tag-version": "^10.0.1",
-    "eslint": "^8.18.0",
+    "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-import-resolver-typescript": "^3.1.1",
+    "eslint-import-resolver-typescript": "^3.2.5",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^9.1.1",
+    "eslint-plugin-vue": "^9.2.0",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "vue-eslint-parser": "^9.0.3"
+  },
+  "dependencies": {
+    "@aparajita/eslint-config-base": "^1.1.3"
   }
 }
