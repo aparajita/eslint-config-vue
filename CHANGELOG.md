@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.0.5](https://github.com/aparajita/eslint-config-vue/compare/v1.0.4...v1.0.5) (2022-07-21)
+
+
+### Bug Fixes
+
+* disable slot rule for Ionic ([6dcbe07](https://github.com/aparajita/eslint-config-vue/commit/6dcbe0712d1db22e662b62c338b27bc04987fe49))
+
 ### [1.0.4](https://github.com/aparajita/eslint-config-vue/compare/v1.0.3...v1.0.4) (2022-07-20)
 
 
