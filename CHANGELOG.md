@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.0.6](https://github.com/aparajita/eslint-config-vue/compare/v1.0.5...v1.0.6) (2022-08-03)
+
+
+### Bug Fixes
+
+* don’t PascalCase ionic components ([221ce86](https://github.com/aparajita/eslint-config-vue/commit/221ce862e5d9c90b4218785627185fcbad4764ec))
+
 ### [1.0.5](https://github.com/aparajita/eslint-config-vue/compare/v1.0.4...v1.0.5) (2022-07-21)
 
 
