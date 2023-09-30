@@ -31,7 +31,7 @@ In order to use this config, add it to the `extends` clause of your eslint confi
 
 ```js
 module.exports = {
-  extends: ['@aparajita/vue']
+  extends: ['@aparajita/vue'],
 }
 ```
 
@@ -52,10 +52,10 @@ module.exports = {
       files: ['*.ts', '*.tsx', '*.vue'],
       parserOptions: {
         tsconfigRootDir: path.dirname(rootTsconfigPath),
-        project: [rootTsconfigPath]
-      }
-    }
-  ]
+        project: [rootTsconfigPath],
+      },
+    },
+  ],
 }
 ```
 
