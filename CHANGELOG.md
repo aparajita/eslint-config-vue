@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.7](https://github.com/aparajita/eslint-config-vue/compare/v1.0.6...v1.0.7) (2023-09-30)
+
+
+### Maintenance
+
+* update deps, format ([296d939](https://github.com/aparajita/eslint-config-vue/commit/296d9398bd4570115f7fadc286074339ea3c7e9e))
+
 ### [1.0.6](https://github.com/aparajita/eslint-config-vue/compare/v1.0.5...v1.0.6) (2022-08-03)
 
 
